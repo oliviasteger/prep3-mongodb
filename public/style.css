@@ -5,8 +5,10 @@ html {
 body {
   margin: 0 1em;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   max-height: 100vh;
+  font-size: 16px;
 }
 
 h1, h2 {
@@ -34,10 +36,26 @@ main {
   height: 80vh;
   width: 100%;
   overflow: auto;
-  border: 1px solid #ccc;
-  padding: 1em;
+  border: 1px dotted #ccc;
+  padding: 10px;
+  background-color: #ccc;
 }
 
 #response-text {
   font-family: 'Courier New', Courier, monospace;
+}
+
+input, textarea {
+  border: 1px dotted #000;
+  margin: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }

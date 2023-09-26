@@ -1,3 +1,6 @@
+// I looked at the code, and get session user tests getById, update tests update, and delete post tests delete,
+// so it does not look like any changes are needed to test everything I've implemented in server/concepts/user
+
 const operations = [
   {
     name: "Get Session User (logged in user)",
